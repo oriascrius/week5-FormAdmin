@@ -1,0 +1,10 @@
+aside {
+  width: 296px;
+  background-color: #f8f9fa;
+}
+.nav-link {
+  border-left: 4px solid transparent;
+}
+.nav-link:hover {
+  background-color: $primary;
+}

@@ -1,0 +1,55 @@
+// 針對右邊寬度，去掉左邊側邊欄的寬度
+.content {
+  width: calc(100% - 296px);
+}
+// 按鈕 hover
+.btn {
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.5; // 设置半透明效果
+  }
+}
+//icon hover
+.material-symbols-outlined {
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.5; // 设置半透明效果
+  }
+}
+// 分頁 hover
+.page-item {
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.5; // 设置半透明效果
+  }
+}
+// 控制 Admin 頁面，查看視窗內的上下摺疊 icon
+.keyboard_arrow{
+  transform: rotate(-180deg);
+  // 加入過渡
+  transition: transform .5s;
+}
+
+.collapsed .keyboard_arrow{
+  transform: rotate(0deg);
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+// 更改 dropdown 的 icon
+.btn.dropdown-toggle::after {
+  color: green;
+}
+.modal-dialog img {
+  width: 141px;
+  height: 141px;
+}
+// 控制輸入框 focus 時不要有光圈
+.textarea-no-focus:focus {
+  outline: none;
+  box-shadow: none; /* 去除 Bootstrap 的 focus 鉤子陰影 */
+}

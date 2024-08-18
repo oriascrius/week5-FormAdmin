@@ -1,0 +1,15 @@
+
+// 助教範例，應該是第二網址的 ROBOTO MONO 字體
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+// 根據設計稿第一個字體，第二字體找不到網站
+// https://fonts.google.com/specimen/Lato
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import "../../node_modules/bootstrap";
+
+@import './base/base.scss';
+@import './layout/header.scss';
+
+@import './pages/index.scss';
